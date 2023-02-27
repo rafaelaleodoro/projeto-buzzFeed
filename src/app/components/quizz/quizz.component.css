@@ -1,0 +1,84 @@
+.quizz__container {
+  width: 55%;
+  margin: auto;
+  margin-top: 20px;
+
+}
+
+.quizz_logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+
+}
+
+.quizz_logo > h3 {
+  margin-top: 20px;
+}
+
+.quizz__perguntas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid blueviolet;
+  border-radius: 8px;
+  background-color: rgba(137, 43, 226, 0.55);
+  width: 100%;
+  height: 200px;
+  font-size: 20px;
+  font-family: "Tangerine", serif;
+  font-size: 40px;
+  text-shadow: 2px 2px 2px #aaa;
+  margin-bottom: 20px;
+}
+
+.quizz__opcoesUsuario{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.botao-opcao{
+  background-color: transparent;
+  border-radius: 8px;
+  border: 1px solid black;
+  width: 30%;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 1px 2px 3px #534f87;
+}
+
+.botao-opcao:hover{
+  background-color: rgba(137, 43, 226, 0.724);
+}
+
+.botao-opcao:active{
+  position: relative;
+  top: 1px;
+}
+
+.quizz__resultados{
+  width:100%;
+  height: 350px;
+  border: 2px solid blueviolet;
+  border-radius: 8px;
+  background-color: rgba(137, 43, 226, 0.55);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+   font-family: "Tangerine", serif;
+  font-size: 25px;
+  text-shadow: 2px 2px 2px #534f87;
+  margin-bottom: 20px;
+}
